@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+body{
+    font-family: Koulen;
+    text-align: center;
+    background-color: #e9e7e7;
+}
+
+.header-container .header{
+    font-size: 36px;
+    margin-top: -35px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0) , rgb(255, 251, 251), rgba(204, 204, 204, 0));
+}
+
+.header-container .header h3{
+    color:black
+}
+
+.form-container .form-control input[type=text]{
+    width:35%;
+    padding: 12px 20px;
+    margin-top:-30px;
+    box-sizing: border-box;
+}
+
+.card{
+    background-color: rgba(249, 255, 255, 0.952);
+    width:100%;
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.quotebutton button{
+    margin-top:20px;
+    background-color: #ffffff; 
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
